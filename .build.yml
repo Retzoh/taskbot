@@ -13,7 +13,7 @@ environment:
 secrets:
   - ed37ce69-d5be-42df-9b92-41471089d431  # ~/.ssh/known_hosts
   - 899472e5-1ec8-4211-a00b-05a0d3eaf775  # ~/.ssh/.github_deploy_ssh_key
-  - 20ceddf3-b6cb-4c2b-81c2-b6da58c48a4b  # ~/.cloudflare/api_keys
+  - 7a15e00a-ada6-463e-a145-31c3297d95ec  # ~/.cloudflare/api_keys
 tasks:
 - setup_nvm: |
     wget -nv -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
